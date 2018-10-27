@@ -1,4 +1,12 @@
-let nums = [4,23,13,61,88,3,8,12,9,-10];
+// Random array of number between -100 and 100
+function randomData() {
+	const range = 20;
+	return Math.round(Math.random() * (range * 2)) - range;
+}
+
+const data = Array.apply(null, {length: 100000}).map(Function.call, randomData);
+
+// let data = [4,23,13,61,88,3,8,12,9,-10];
 
 function bubbleSort(arr){
 	// init a hasSwapped to true to start the loop
@@ -26,4 +34,4 @@ function bubbleSort(arr){
 	return arr;
 }
 
-console.log(bubbleSort(nums));
+console.log(bubbleSort(data));

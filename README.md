@@ -1,3 +1,3 @@
-# Data Structure And Algorithms
+# Data Structure And Algorithms Review
 
-This is a repo for Data Structure and Algorithms exercices.
+This is a repo for Data Structure and Algorithms Review exercices.
